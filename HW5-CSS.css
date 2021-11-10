@@ -1,0 +1,43 @@
+*{box-sizing: border-box}
+body {
+    background-color:#52a352;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    padding: 100px;
+    border:1px #52a352;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: white;
+}
+input[type=text], input[type=password] {
+    width: 300px;
+    padding: 35px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    background: #f1f1f1;
+    box-sizing: border-box;
+}
+.submit_btn {
+    background-color: #0f8837;
+    color: white;
+    padding: 16px 20px;
+    margin: 50px 0;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    opacity: 0.9;
+}
+.submit_btn:hover {
+    opacity:1;
+}
+.signin {
+    text-align: center;
+}
+.footer {
+    margin-left: 20%;
+}
